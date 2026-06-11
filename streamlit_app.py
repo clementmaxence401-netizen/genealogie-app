@@ -56,20 +56,27 @@ SITES = [
     {"name": "Cyndi's List",       "url": "https://www.cyndislist.com",         "desc": "Annuaire de 300 000 liens généalogiques classés par pays et sujet.",                                                    "cat": "Outils",    "gratuit": True},
     {"name": "RootsWeb",           "url": "https://www.rootsweb.com",           "desc": "Un des plus anciens réseaux généalogiques en ligne. Millions d'arbres partagés.",                                       "cat": "Outils",    "gratuit": True},
     {"name": "Africa Ancestry",    "url": "https://www.africanancestry.com",    "desc": "Tests ADN spécialisés dans les origines africaines et la diaspora.",                                                     "cat": "Mondial",   "gratuit": False},
+    {"name": "Geneanet Asie & Monde","url": "https://www.geneanet.org",          "desc": "Recherches étendues sur les familles expatriées et bases de données collaboratives globales.",                          "cat": "Mondial",   "gratuit": True},
+    
     # ── France ───────────────────────────────────────────────────────────────
     {"name": "Geneanet",           "url": "https://www.geneanet.org",           "desc": "Réseau généalogique français et international, arbres collaboratifs et actes paroissiaux.",                             "cat": "France",    "gratuit": True},
     {"name": "Filae",              "url": "https://www.filae.com",              "desc": "Archives numérisées françaises, état civil et recensements. Leader en France.",                                         "cat": "France",    "gratuit": False},
     {"name": "Archives nationales","url": "https://www.archives-nationales.culture.gouv.fr", "desc": "Archives nationales françaises, documents historiques accessibles en ligne.",                              "cat": "Archives",  "gratuit": True},
     {"name": "France Archives",    "url": "https://francearchives.gouv.fr",     "desc": "Portail d'accès à toutes les archives départementales françaises numérisées.",                                           "cat": "France",    "gratuit": True},
     {"name": "Gallica – BnF",      "url": "https://gallica.bnf.fr",             "desc": "Bibliothèque numérique de la BnF. Presses, registres, journaux anciens.",                                              "cat": "Archives",  "gratuit": True},
+    {"name": "Généabank",          "url": "https://www.geneabank.org",          "desc": "Base de données unique alimentée par des dizaines d'associations généalogiques françaises.",                             "cat": "France",    "gratuit": True},
+    {"name": "RetroNews",          "url": "https://www.retronews.fr",           "desc": "Le site de presse de la BnF. Idéal pour retrouver des avis de décès, faits divers et récits de vie anciens.",            "cat": "Archives",  "gratuit": True},
+    {"name": "MémorialGenWeb",     "url": "https://www.memorialgenweb.org",     "desc": "Recensement des soldats morts pour la France durant les différents conflits historiques.",                              "cat": "France",    "gratuit": True},
     {"name": "Eureka Généalogie",  "url": "https://www.eureka.re",              "desc": "Moteur de recherche généalogique multibase pour la France.",                                                            "cat": "Outils",    "gratuit": True},
     {"name": "Généalogie.com",     "url": "https://www.genealogie.com",         "desc": "Portail généalogique français avec millions de fiches et entraide communautaire.",                                      "cat": "France",    "gratuit": True},
     {"name": "SOSA Conseil",       "url": "https://www.sosa.fr",                "desc": "Service professionnel de recherches généalogiques en France.",                                                          "cat": "France",    "gratuit": False},
     {"name": "CGF Association",    "url": "https://www.cgf.asso.fr",            "desc": "Cercle Généalogique de France, aide et ressources pour chercheurs amateurs.",                                           "cat": "France",    "gratuit": True},
+    
     # ── Europe ───────────────────────────────────────────────────────────────
     {"name": "Findmypast",         "url": "https://www.findmypast.com",         "desc": "Spécialisé dans les archives britanniques, irlandaises, américaines et du Commonwealth.",                               "cat": "Europe",    "gratuit": False},
     {"name": "The Genealogist UK", "url": "https://www.thegenealogist.co.uk",   "desc": "Archives britanniques, recensements UK, BMD et arbres familiaux.",                                                      "cat": "Europe",    "gratuit": False},
     {"name": "FamilyRelatives UK", "url": "https://www.familyrelatives.com",    "desc": "Registres d'état civil anglais et gallois, naissances, mariages, décès.",                                              "cat": "Europe",    "gratuit": True},
+    {"name": "IrishGenealogy",     "url": "https://www.irishgenealogy.ie",      "desc": "Portail officiel de l'État irlandais pour la recherche de registres d'état civil et d'église gratuits.",                 "cat": "Europe",    "gratuit": True},
     {"name": "Archion (Allemagne)","url": "https://www.archion.de",             "desc": "Archives kirchenbuch (registres d'église) pour l'Allemagne et l'Autriche.",                                            "cat": "Religions", "gratuit": False},
     {"name": "Matricula Online",   "url": "https://data.matricula-online.eu",   "desc": "Registres paroissiaux catholiques pour l'Europe centrale (Autriche, Allemagne, Pologne).",                            "cat": "Religions", "gratuit": True},
     {"name": "Riksarkivet (Suède)","url": "https://riksarkivet.se",             "desc": "Archives nationales suédoises avec registres paroissiaux et recensements.",                                            "cat": "Archives",  "gratuit": True},
@@ -82,6 +89,7 @@ SITES = [
     {"name": "Íslendingabók",      "url": "https://www.islendingabok.is",       "desc": "Base de données islandaise, quasi toute la population depuis le 9e siècle.",                                           "cat": "Europe",    "gratuit": True},
     {"name": "Openarch (Pays-Bas)","url": "https://www.openarch.nl",            "desc": "Archives ouvertes des Pays-Bas et Belgique, état civil et registres divers.",                                          "cat": "Archives",  "gratuit": True},
     {"name": "Nationaal Archief",  "url": "https://www.nationaalarchief.nl",    "desc": "Archives nationales néerlandaises, registres d'état civil numérisés.",                                                 "cat": "Archives",  "gratuit": True},
+    
     # ── Amériques ────────────────────────────────────────────────────────────
     {"name": "BAnQ Québec",        "url": "https://www.banq.qc.ca",             "desc": "Archives québécoises, registres d'état civil, notariaux et judiciaires.",                                              "cat": "Amériques", "gratuit": True},
     {"name": "Collection Drouin",  "url": "https://www.genealogie.com",         "desc": "Collection Drouin, actes paroissiaux du Québec et de l'Ontario.",                                                      "cat": "Amériques", "gratuit": False},
@@ -89,10 +97,15 @@ SITES = [
     {"name": "Fold3",              "url": "https://www.fold3.com",              "desc": "Archives militaires américaines, registres de guerre, dossiers de service.",                                           "cat": "Amériques", "gratuit": False},
     {"name": "Ellis Island",       "url": "https://libertyellisfoundation.org", "desc": "Base de données des immigrants arrivés à Ellis Island entre 1892 et 1957.",                                           "cat": "Amériques", "gratuit": True},
     {"name": "Ancestry Latino",    "url": "https://www.ancestry.com/cs/la-latin-american-records", "desc": "Archives d'Amérique latine (Mexique, Brésil, Argentine, Chili…).",                                 "cat": "Amériques", "gratuit": False},
-    # ── Religions ────────────────────────────────────────────────────────────
+    {"name": "National Archives USA","url": "https://www.archives.gov",         "desc": "Accès aux recensements de population américains historiques et dossiers d'immigration.",                                "cat": "Archives",  "gratuit": True},
+    
+    # ── Religions & Communautés ───────────────────────────────────────────────
     {"name": "JRI-Poland",         "url": "https://jri-poland.org",             "desc": "Index des registres juifs de Pologne et d'Europe de l'Est.",                                                           "cat": "Religions", "gratuit": True},
     {"name": "Sephardic Genealogy","url": "https://www.sephardicgen.com",       "desc": "Généalogie séfarade, registres des communautés juives du bassin méditerranéen.",                                       "cat": "Religions", "gratuit": True},
     {"name": "Catholic Hierarchy", "url": "https://www.catholic-hierarchy.org", "desc": "Base de données du clergé catholique, utile pour les familles catholiques.",                                           "cat": "Religions", "gratuit": True},
+    {"name": "Archives d'Outre-Mer (ANOM)","url": "https://www.archivesnationales.culture.gouv.fr/anom", "desc": "État civil d'Algérie, du Maroc, de Tunisie et des anciennes colonies françaises.",           "cat": "Archives",  "gratuit": True},
+    {"name": "L'Agha (Maghreb)",   "url": "https://www.agha.fr",                "desc": "Association généalogique pour l'Algérie, le Maroc et la Tunisie. Outils d'entraide indispensables.",                   "cat": "Religions", "gratuit": True},
+    
     # ── Outils & Logiciels ───────────────────────────────────────────────────
     {"name": "GEDmatch",           "url": "https://www.gedmatch.com",           "desc": "Outil de comparaison ADN multi-plateformes pour généalogistes.",                                                       "cat": "Outils",    "gratuit": True},
     {"name": "23andMe",            "url": "https://www.23andme.com",            "desc": "Tests ADN pour l'ascendance et la santé, correspondances génétiques.",                                                  "cat": "Outils",    "gratuit": False},
@@ -178,7 +191,6 @@ else:
             </div>
         </div>
         """
-        # Utilisation du contexte 'with' pour cibler la colonne de l'interface Streamlit
         with cols[i % 2]:
             st.markdown(html, unsafe_allow_html=True)
 
