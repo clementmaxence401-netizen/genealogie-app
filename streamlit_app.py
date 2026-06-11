@@ -69,4 +69,4 @@ SITES = [
     {"name": "Généalogie.com",     "url": "https://www.genealogie.com",         "desc": "Portail généalogique français avec millions de fiches et entraide communautaire.",                                      "cat": "France",    "gratuit": True},
     {"name": "SOSA Conseil",       "url": "https://www.sosa.fr",                "desc": "Service professionnel de recherches généalogiques en France.",                                                          "cat": "France",    "gratuit": False},
     {"name": "CGF Association",    "url": "https://www.cgf.asso.fr",            "desc": "Cercle Généalogique de France, aide et ressources pour chercheurs amateurs.",                                           "cat": "France",    "gratuit": True},
-    {"name": "Mémoire des Hommes", "url": "https://www.memoiredeshommes.sga.defense.gouv.fr", "desc": "Base de données des militaires morts pour la France lors des différents conflits.",                           "cat": "France",    "gratuit": True
+                        "cat": "France",    "gratuit": True
