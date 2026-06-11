@@ -62,14 +62,17 @@ SITES = [
     {"name": "GeneaSub",           "url": "https://www.geneasub.com",           "desc": "Moteur de recherche global spécialisé dans les bases de données généalogiques libres.",                                  "cat": "Mondial",   "type": "État Civil / Registres", "gratuit": True},
     {"name": "Cemeteries Route",   "url": "https://www.significantcemeteries.org", "desc": "Réseau et index des cimetières historiques d'importance patrimoniale globale.",                                        "cat": "Mondial",   "type": "Cimetières / Tombes", "gratuit": True},
 
-    # ── France (15 sites) ────────────────────────────────────────────────────
+    # ── France (18 sites - Ajouts & MAJ militaires) ───────────────────────────
     {"name": "Geneanet",           "url": "https://www.geneanet.org",           "desc": "Réseau généalogique français et international, arbres collaboratifs et actes paroissiaux.",                             "cat": "France",    "type": "Logiciels / Arbres", "gratuit": True},
     {"name": "Filae",              "url": "https://www.filae.com",              "desc": "Archives numérisées françaises, état civil et recensements. Leader en France.",                                         "cat": "France",    "type": "État Civil / Registres", "gratuit": False},
     {"name": "France Archives",    "url": "https://francearchives.gouv.fr",     "desc": "Portail d'accès à toutes les archives départementales françaises numérisées.",                                          "cat": "France",    "type": "État Civil / Registres", "gratuit": True},
+    {"name": "Mémoire des Hommes", "url": "https://www.memoiredeshommes.sga.defense.gouv.fr", "desc": "Portail officiel du Ministère des Armées. Registres matricules, fiches de Morts pour la France (14-18, 39-45, Indochine), résistants et fusillés.", "cat": "France", "type": "Militaires", "gratuit": True},
+    {"name": "Grand Mémorial",     "url": "http://www.culture.fr/Genealogie/Grand-Memorial", "desc": "Moteur de recherche national des registres matricules des soldats de la Grande Guerre (classes 1887-1921).", "cat": "France", "type": "Militaires", "gratuit": True},
+    {"name": "Service Historique de la Défense (SHD)", "url": "https://www.servicehistorique.sga.defense.gouv.fr", "desc": "Accès aux inventaires et archives des forces armées françaises (Vincennes, Caen, Rochefort, Lorient).", "cat": "France", "type": "Militaires", "gratuit": True},
+    {"name": "SGA / Sépultures de Guerre", "url": "https://www.sga.defense.gouv.fr/meponweb/", "desc": "Permet de trouver le lieu d'inhumation des soldats morts pour la France dans les nécropoles nationales et carrés militaires.", "cat": "France", "type": "Militaires", "gratuit": True},
     {"name": "Généalogie.com",     "url": "https://www.genealogie.com",         "desc": "Portail généalogique français avec millions de fiches et entraide communautaire.",                                      "cat": "France",    "type": "État Civil / Registres", "gratuit": True},
     {"name": "SOSA Conseil",       "url": "https://www.sosa.fr",                "desc": "Service professionnel de recherches généalogiques en France.",                                                          "cat": "France",    "type": "État Civil / Registres", "gratuit": False},
     {"name": "CGF Association",    "url": "https://www.cgf.asso.fr",            "desc": "Cercle Généalogique de France, aide et ressources pour chercheurs amateurs.",                                           "cat": "France",    "type": "État Civil / Registres", "gratuit": True},
-    {"name": "Mémoire des Hommes", "url": "https://www.memoiredeshommes.sga.defense.gouv.fr", "desc": "Base de données des militaires morts pour la France lors des différents conflits.",                           "cat": "France",    "type": "Militaires", "gratuit": True},
     {"name": "GeneaBank",          "url": "http://www.geneabank.org",           "desc": "Banque de données mutualisée des associations généalogiques françaises.",                                                "cat": "France",    "type": "État Civil / Registres", "gratuit": True},
     {"name": "Bagneux Archives",   "url": "https://www.archives-recherche.fr",  "desc": "Exemple d'annuaire regroupant les archives communales et municipales de France.",                                         "cat": "France",    "type": "État Civil / Registres", "gratuit": True},
     {"name": "Cercle du Hainaut",  "url": "https://www.ghdk.fr",                "desc": "Groupement généalogique de la région Nord et Flandres françaises.",                                                      "cat": "France",    "type": "État Civil / Registres", "gratuit": True},
@@ -79,8 +82,9 @@ SITES = [
     {"name": "Familles Parisiennes","url": "http://www.famillesparisiennes.org", "desc": "Bases de données et archives notariales sur les familles de Paris et de l'Île-de-France.",                                   "cat": "France",    "type": "État Civil / Registres", "gratuit": True},
     {"name": "GeneaWiki",          "url": "https://fr.geneawiki.com",           "desc": "L'encyclopédie de la généalogie gratuite, écrite de manière collaborative.",                                            "cat": "France",    "type": "Logiciels / Arbres", "gratuit": True},
 
-    # ── Europe (15 sites) ────────────────────────────────────────────────────
+    # ── Europe (16 sites) ────────────────────────────────────────────────────
     {"name": "Findmypast",         "url": "https://www.findmypast.com",         "desc": "Spécialisé dans les archives britanniques, irlandaises, américaines et du Commonwealth.",                               "cat": "Europe",    "type": "État Civil / Registres", "gratuit": False},
+    {"name": "The National Archives UK - Military", "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/?research-guide-category=military-and-maritime", "desc": "Guides et registres officiels de l'armée britannique, de la Royal Navy et de la RAF.", "cat": "Europe", "type": "Militaires", "gratuit": True},
     {"name": "The Genealogist UK", "url": "https://www.thegenealogist.co.uk",   "desc": "Archives britanniques, recensements UK, BMD et arbres familiaux.",                                                      "cat": "Europe",    "type": "État Civil / Registres", "gratuit": False},
     {"name": "FamilyRelatives UK", "url": "https://www.familyrelatives.com",    "desc": "Registres d'état civil anglais et gallois, naissances, mariages, décès.",                                              "cat": "Europe",    "type": "État Civil / Registres", "gratuit": True},
     {"name": "MyAncestry.dk",      "url": "https://www.myancestry.dk",          "desc": "Registres danois, recensements et listes de paroisse.",                                                                 "cat": "Europe",    "type": "État Civil / Registres", "gratuit": True},
@@ -218,13 +222,16 @@ else:
         cout_badge = "🆓 Gratuit" if site["gratuit"] else "💳 Payant"
         cout_cls   = "gratuit"   if site["gratuit"] else "payant"
 
+        # Changement d'icône pour le badge selon le type de doc
+        type_emoji = "🎖️" if site["type"] == "Militaires" else "📂"
+
         html = f"""
         <div class="card">
             <div class="card-title">{site['name']}</div>
             <div class="card-desc">{site['desc']}</div>
             <div class="card-footer">
                 <span class="badge badge-{badge_cls}">{badge_emoji} {site['cat']}</span>
-                <span class="badge badge-outils">📂 {site['type']}</span>
+                <span class="badge badge-outils">{type_emoji} {site['type']}</span>
                 <span class="badge badge-{cout_cls}">{cout_badge}</span>
                 <a href="{site['url']}" target="_blank" class="link-btn">🔗 Ouvrir →</a>
             </div>
